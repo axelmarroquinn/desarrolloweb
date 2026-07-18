@@ -1,0 +1,9 @@
+PREGUNTAS DE ANÁLISIS
+1.	¿Cuál es la diferencia entre <head> y <header>? HEAD es la cabecera del documento la cual contiene metadatos y el título que se ve en la pestaña del navegador. HEADER es la cabecera visual que va dentro del BODY, representando la parte superior visible de una página, donde usualmente va el logotipo, título principal, navbar, etc.
+2.	¿Cuál es la diferencia entre <title> y <h1>? TITLE define el nombre que se muestra en la pestaña del navegador. H1 es visualmente un título dentro del cuerpo de la página web.
+3.	¿Por qué es importante el atributo alt? Es un texto alternativo que permite que los lectores de pantalla describan el sitio web para personas con discapacidad visual, ayuda a los motores de búsqueda a entender nuestra página, o si la imagen no carga, el navegador mostrará el texto en su lugar.
+4.	¿Qué función cumple la etiqueta <nav>? Es la barra de navegación con títulos principales para moverse en la página.
+5.	¿Por qué se recomienda utilizar etiquetas semánticas? Para darle significado a la estructura de la web, en lugar de usar cajones genéricos como DIV, podemos usar MAIN, SECTION, ARTICLE o FOOTER para que los motores de búsqueda funcionen mejor y el código sea más ordenado.
+6.	¿Qué sucede si la ruta de la imagen es incorrecta? No se imprimirá la imagen, mostrará un ícono default y el texto que se haya agregado en la etiqueta ALT.
+7.	¿Por qué el archivo principal se llama normalmente index.html? Porque es un estándar y una configuración por defecto de la mayoría de tecnologías como Apache o GINX.
+8.	¿HTML es un lenguaje de programación? Justifique su respuesta. No, es un lenguaje de marcado de hipertexto (tal como las siglas lo indican en inglés) que sirve para estructurar el contenido de la página web. No es programación porque carece de lógica (como condicionales o bucles) u operaciones complejas.
