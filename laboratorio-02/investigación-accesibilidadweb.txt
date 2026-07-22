@@ -1,0 +1,12 @@
+La accesibilidad web consiste en optimizar código para que personas con capacidades diferentes o lectores de pantalla puedan navegar y entender el contenido fácilmente, haciéndolo más fácil de entender con secciones lógicas y bien nombradas del código.
+Las mejoras integradas son:
+
+aria-label: Se añadió a la etiqueta <nav> para que las herramientas de asistencia identifiquen el menú principal.
+
+<figure> y <figcaption>: Se combinaron con la etiqueta de imagen para contextualizar el contenido del avatar.
+
+label vinculados en formulario: Se asociaron los textos a cada campo mediante atributos for e id, asegurando que un lector de pantalla anuncie los datos a ingresar.
+
+Enlaces externos seguros y en nueva pestaña: Se añadieron los atributos de seguridad de navegación y la apertura en nueva pestaña para no perder el contenido original.
+
+Metadatos e idioma: Se especificó el lenguaje español al documento, y se agregaron los metadatos de autor.

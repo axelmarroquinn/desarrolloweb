@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METADATOS Y TÍTULO DE PESTAÑA -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfil académico de un estudiante de Desarrollo Web">
+    <!-- ########## SE AGREGARON LOS METADATOS DEL AUTOR ########## -->
+    <meta name="author" content="Axel Salvatierra">
+    <title>Mi perfil como futuro desarrollador web</title>
+</head>
+<body id="inicio">
+
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header>
+        <h1>Mi perfil como futuro desarrollador web</h1>
+        <p>Estudiante de Ingeniería en Sistemas</p>
+    </header>
+
+    <hr>
+
+    <!-- MENÚ DE NAVEGACIÓN PRINCIPAL -->
+    <!--########## SE AGREGÓ ARIA-LABEL PARA FACILITAR LECTORES DE PANTALLA ##########-->
+    <!--########## SE HIZO LA NAVEGACIÓN COMO LISTA PARA MANTENER UN ORDEN ESTÁNDAR ##########-->
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#contacto-form">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main>
+
+        <!-- SECCIÓN: SOBRE MÍ -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <!--########## SE AGREGÓ LA ETIQUETA FIGURE Y DIMENSIONES ASÍ COMO UNA CAPTION PARA CONTEXTUALIZAR ##########-->
+            <figure>
+                <img src="img/avatar.jpeg" alt="Avatar ilustrado de Axel Salvatierra" width="250" height="250">
+                <figcaption>Avatar de Axel Salvatierra, estudiante de desarrollo web.</figcaption>
+            </figure>
+
+            <p>
+                Mi nombre es <strong>Axel Salvatierra</strong>, conozco las bases de HTML, CSS y JavaScript, y en este curso
+                me interesa fortalecer mis conocimiento en desarollo web para lograr crear
+                aplicaciones funcionales para mí y otras personas.
+            </p>
+            <p>
+                Me interesa aprender cómo se construyen las aplicaciones web que utilizamos diariamente,
+                desde YouTube hasta el portal de la universidad, explorando como se conectan los
+                navegadores con los servidores y las bases de datos.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: HOBBIES -->
+        <section id="hobbies">
+            <h2>Mis hobbies son</h2>
+            <ul>
+                <li>Escuchar música</li>
+                <li>La fotografía</li>
+                <li>Dibujar</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: TECNOLOGÍAS QUE CONOZCO -->
+        <section id="tecnologias">
+            <h2>Tecnologías que conozco</h2>
+            <ul>
+                <li>C#</li>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>Claude</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: OBJETIVOS EN EL CURSO -->
+        <section id="objetivos">
+            <h2>Mis objetivos en el curso</h2>
+            <ol>
+                <li>Aprender a construir una aplicación web funcional.</li>
+                <li>Comprender como el frontend se comunica con el backend.</li>
+                <li>Desarrollar proyectos funcionales y útiles para otras personas.</li>
+                <li>Aplicar los conocimientos que ya tengo de años anteriores, y los nuevos adquiridos.</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: TABLA DE CURSOS Y EXPECTATIVAS -->
+        <section id="conocimientos">
+            <h2>Nivel de conocimientos y expectativas</h2>
+            <table border="1">
+                <!--########## SE AGREGÓ UN CAPTION PARA ACCESIBILIDAD ##########-->
+                <caption>Resumen de cursos, nivel actual y expectativas.</caption>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Nivel de conocimiento</th>
+                        <th>Expectativa de aprendizaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desarrollo Web</td>
+                        <td>Básico-Intermedio</td>
+                        <td>Estructurar y diseñar interfaces web funcionales.</td>
+                    </tr>
+                    <tr>
+                        <td>Redes de Computadoras I</td>
+                        <td>Básico</td>
+                        <td>Aprender más sobre el diseño, configuración y administración de dispositivos en una red.</td>
+                    </tr>
+                    <tr>
+                        <td>Ética Profesional</td>
+                        <td>Intermedio</td>
+                        <td>Ser ético.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: RECURSOS DE APRENDIZAJE EXTERNOS -->
+        <section id="recursos">
+            <h2>Sitios que utilizo para aprender</h2>
+            <p>
+                Uno de los sitios que utilizaré como referencia es
+                <!--########## SE AGREGÓ LA FEATURE PARA ABRIR ENLACE EN NUEVA PESTAÑA Y NO PERDER ESTE CONTENIDO ##########-->
+                <a href="https://udemy.com/" target="_blank" rel="noopener noreferrer">Udemy (abre en nueva pestaña)</a>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- SECCIÓN: FORMULARIO DE CONTACTO -->
+        <section id="contacto-form">
+            <h2>Ponte en contacto conmigo</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Axel Salvatierra" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- NAVEGACIÓN DE RETORNO AL INICIO -->
+    <a href="#inicio">Volver al inicio de la página</a>
+
+    <hr>
+
+    <!-- PIE DE PÁGINA Y DATOS DE CONTACTO -->
+    <footer id="contacto">
+        <p>Desarrollado por Axel Salvatierra.</p>
+        <p>Curso Desarrollo Web - 2026.</p>
+    </footer>
+
+</body>
+</html>
