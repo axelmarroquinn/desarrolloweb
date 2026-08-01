@@ -1,0 +1,139 @@
+<!--SE COPIÓ EL CONTENIDO DE LA CLASE 2-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TechStore</title>
+</head>
+<body>
+    <header>
+        <h1>TechStore</h1>
+        <p>Tecnología para todos.</p>
+    </header>
+
+   <nav aria-label="Navegación Principal">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+   </nav>
+
+   <main>
+        <section id="inicio">
+            <h2>Bienvenidos a TechStore</h2>
+            <p>Encuentra productos tecnológicos para estudiar y trabajar.</p>
+            
+            <p><strong>Video destacado:</strong> Mira el video de nuestra canción favorita: 
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank" rel="noopener noreferrer">
+                    Rick Astley - Never Gonna Give You Up (Official Video)
+                </a>
+            </p>
+        </section>
+
+        <section id="productos" class="destacado">
+            <h2>Productos destacados</h2>
+
+            <article>
+                <h3>Computadora portátil</h3>
+                <p>Equipo diseñado para estudiantes y profesionales.</p>
+            </article>
+
+            <article>
+                <h3>Monitor de alta resolución</h3>
+                <p>Ideal para programación, diseño y productividad.</p>
+            </article>
+
+            <aside>
+                <h3>Promoción de la semana</h3>
+                <p>Envío gratuito en compras de Q500.</p>
+            </aside>
+        </section>
+
+        <section id="nosotros">
+            <h2>Servicios disponibles</h2>
+
+            <ul>
+                <li>Venta de computadoras</li>
+                <li>Soporte técnico</li>
+                <li>Instalación de software</li>
+            </ul>
+
+            <h2>Proceso de compra</h2>
+            <ol>
+                <li>Seleccionar productos</li>
+                <li>Agregarlos al carrito</li>
+                <li>Ingresar los datos de entrega</li>
+                <li>Pagar</li>
+            </ol>
+
+            <h2>Conceptos importantes</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje utilizado para estructurar contenido web.</dd>
+                <dt>CSS</dt>
+                <dd>Lenguaje para definir la presentación visual.</dd>
+            </dl>
+
+            <h2>Horarios de Atención</h2>
+            <table>
+                <caption>Horario operativo semanal de TechStore</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Días</th>
+                        <th scope="col">Apertura</th>
+                        <th scope="col">Cierre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Lunes a Viernes</th>
+                        <td>08:00 AM</td>
+                        <td>06:00 PM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sábados</th>
+                        <td>09:00 AM</td>
+                        <td>02:00 PM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Domingos y Feriados</th>
+                        <td colspan="2">Cerrado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna duda o comentario? Escríbenos.</p>
+            
+            <form action="" method="post">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre y apellido">
+                </div>
+                
+                <br> <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <button type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </section>
+   </main>
+
+   <footer>
+    <p>&copy; 2026 TechStore. Todos los derechos reservados.</p>
+   </footer>
+</body>
+</html>

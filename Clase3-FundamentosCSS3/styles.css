@@ -1,0 +1,98 @@
+/* ESTRUCTURA BASE DEL SITIO */
+
+/* BODY: fondo blanco neutro, texto gris oscuro legible,
+   fuente Inter aplicada aquí para TODO el sitio */
+body {
+    background-color: #ffffff;
+    color: #222222;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER: encabezado principal con el azul fuerte de la marca (#1f3c88) */
+header {
+    background-color: #1f3c88;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título "TechStore" en blanco para contrastar sobre el header azul */
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+/* NAVEGACIÓN (ÍNDICE) */
+
+/* NAV: mismo azul que el header, para que ambos se lean como
+   una sola unidad visual en la parte superior */
+nav {
+    background-color: #1f3c88;
+    padding: 10px;
+}
+
+/* Convierte la lista <ul> del menú en una barra horizontal centrada */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlaces del menú en blanco, sin subrayado por defecto */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Subrayado solo al pasar el mouse, como señal de interactividad */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* TIPOS DE SELECTORES (sección de práctica) */
+
+/* SELECTOR DE CLASE: se aplica a cualquier elemento con class="destacado",
+   sin importar la etiqueta que sea (h2, article, etc.) */
+.destacado {
+    background-color: #ffd166;
+    color: #091e53;
+}
+
+/* SELECTOR DE IDENTIFICADOR: se aplica únicamente al elemento con id="contacto",
+   ya que un id debe ser único en todo el documento */
+#contacto {
+    background-color: #dbe9ff;
+    padding: 20px;
+}
+
+/* PIE DE PÁGINA */
+
+/* FOOTER: el azul más oscuro de la paleta, para cerrar visualmente la página */
+footer {
+    background-color: #091e53;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* TABLA DE HORARIOS */
+
+/* TABLE: bordes unidos en líneas limpias, ancho completo */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* TH, TD: bordes negros visualmente visibles */
+th,
+td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
