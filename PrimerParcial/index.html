@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Perfil Profesional</title>
+</head>
+<body class="cuerpo">
+
+
+    <header>
+        <h1 id="tituloHeader">Mi Perfil Profesional</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#cursos">Cursos Aprobados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <figure> 
+            <img 
+            src="img/avatar.jpeg"
+            alt="Avatar personalizado hecho por Axel Salvatierra."
+            width="250">        
+        </figure>
+
+        <h1 class="tituloBody">Breve Biografía</h1>
+        <p>Mi nombre es Axel Salvatierra, tengo 22 años y actualmente me encuentro cursando el octavo semestre de Ingeniería en Sistemas en la Universidad Mariano Gálvez de Guatemala. Me gusta la fotografía, dibujar y escuchar música.</p>
+
+        <h1 class="tituloBody">Habilidades</h1>
+        <ul>
+            <li>Programación básica en C#</li>
+            <li>Conocimientos en SQL</li>
+            <li>Manejo de paquete de Microsoft Office</li>
+        </ul>
+
+        <table>
+            <p>Cursos aprobados.</p>
+            <thead>
+                <tr>
+                    <th scope="col">Curso</th>
+                    <th scope="col">Semestre</th>                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Bases de Datos II</th>
+                    <td>Séptimo</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sistemas Operativos II</th>
+                    <td>Séptimo</td>
+                </tr>
+                <tr>
+                    <th scope="row">Compiladores</th>
+                    <td>Séptimo</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <form>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo">
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <footer id="footer">
+        <p>Biografía de Axel Salvatierra. Agosto de 2026.</p>
+    </footer>
+
+
+</body>
+</html>

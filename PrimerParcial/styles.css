@@ -1,0 +1,25 @@
+body{
+    background-color:azure;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#tituloHeader{
+    background-color: rgb(64, 156, 241);
+    padding: 10px;
+}
+
+.cuerpo{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tituloBody{
+    background-color: rgb(169, 212, 253);
+    padding: 10px;
+}
+
+/* Pendiente centrar el contenido principal y crear una distribucion usando flexbox */
