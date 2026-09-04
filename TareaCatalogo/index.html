@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Catálogo de Productos - TecnoTienda</h1>
+  </header>
+
+  <!-- CONTROLES DE BÚSQUEDA, FILTRO POR CATEGORÍA Y BOTONES -->
+  <section id="controles">
+    <input type="text" id="inputBusqueda" placeholder="Buscar producto por nombre...">
+    <button id="btnBuscar">Buscar</button>
+
+    <select id="selectCategoria">
+      <option value="Todas">Todas</option>
+      <option value="Computadoras">Computadoras</option>
+      <option value="Perifericos">Periféricos</option>
+      <option value="Accesorios">Accesorios</option>
+    </select>
+
+    <button id="btnDisponibles">Mostrar solo disponibles</button>
+    <button id="btnTodos">Mostrar todos</button>
+  </section>
+
+  <!-- TARJETAS DE PRODUCTOS CON JS -->
+  <main id="contenedorProductos"></main>
+
+  <!-- MENSAJE CUANDO NO HAYAN COINCIDENCIAS -->
+  <p id="mensajeVacio" style="display: none;">No se encontraron productos</p>
+
+  <script src="app.js"></script>
+</body>
+</html>

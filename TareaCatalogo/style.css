@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+}
+
+/* Controles de búsqueda, filtro y botones */
+#controles {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#controles input,
+#controles select,
+#controles button {
+  padding: 6px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+#controles button {
+  background-color: #0055a5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Contenedor de tarjetas */
+#contenedorProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Tarjeta de producto */
+.tarjeta {
+  background-color: white;
+  border: 1px solid #999;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.disponible {
+  color: green;
+  font-weight: bold;
+}
+
+.agotado {
+  color: red;
+  font-weight: bold;
+}
+
+/* Mensaje de sin resultados */
+#mensajeVacio {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}

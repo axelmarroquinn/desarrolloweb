@@ -160,8 +160,3 @@ formulario.addEventListener("submit", function () {
         resultado.textContent = "Registro corecto: " + nombre.value;
     }
 });
-
-
-
-
-
